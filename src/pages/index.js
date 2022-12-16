@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
-import Grid from '../components/grid'
-import Card from '../components/card'
-import github from '../assets/github.png';
+import CardSocialComponent from '../components/cardSocialComponent'
 
 export default function Home() {
   return (
@@ -15,14 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Grid />
-        {/* <Card
-        link='https://telegram.me/heysagnik'
-        cover={github}
-        title="Teste"
-        subtitle="Teste"
-        /> */}
-
+        <CardSocialComponent />
       </main>
 
       <footer className={styles.footer}>

@@ -38,6 +38,37 @@
   flex-grow: 1;
 }
 
+.Card {
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 8px;
+  border-radius: 8px;
+  height: 200px;
+}
+
+.Card:hover {
+  background: var(--card-hover-bg);
+  border: 1px solid hsla(0, 0%, 87.8%, 0);
+}
+
+.cover {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  height: 94px;
+}
+
+.data {
+  margin-top: 5px;
+}
+
+.row {
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
 
 @media (max-width: 600px) {
   .grid {

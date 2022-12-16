@@ -1,9 +1,5 @@
 import * as React from 'react';
-import { experimentalStyled as styled } from '@mui/material/styles';
-// import Box from '@mui/material/Box';
-// import '../css/component.css';
-import {Paper, Box, Typography} from '@mui/material';
-import Grid from '@mui/material/Unstable_Grid2';
+import styles from '../../styles/Home.module.css'
 import { motion } from 'framer-motion';
 import Image from 'next/image'
 
@@ -25,10 +21,9 @@ const variants = {
 export default function ResponsiveGrid(props) {
     return (
       <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <motion.div className="Card" initial="hidden" animate="visible" custom={props.index} variants={variants}>
-
-            <Image className="cover" src={props.cover} alt="Picture of the author" />
-            <div className="data">
+          <motion.div className={styles.Card} initial="hidden" animate="visible" custom={props.index} variants={variants}>
+            <Image className={styles.cover} src={props.cover} alt="Picture of the author" />
+            <div className={styles.data}>
               <h2>{props.title}</h2>
               <p>{props.subtitle}</p>
             </div>
