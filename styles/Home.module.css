@@ -44,11 +44,12 @@
   padding: 8px;
   border-radius: 8px;
   height: 200px;
+  border: 1px solid #eaeaea;
 }
 
 .Card:hover {
-  background: var(--card-hover-bg);
-  border: 1px solid hsla(0, 0%, 87.8%, 0);
+  background-color: #FAFAFA;
+  border: 1px solid #eaeaea;
 }
 
 .cover {

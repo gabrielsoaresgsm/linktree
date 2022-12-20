@@ -21,7 +21,6 @@ const variants = {
   };
 
 export default function ResponsiveGrid(props) {
-  console.log("database", database)
     return (
       <a href={props.link} target="_blank" rel="noopener noreferrer">
           <motion.div className={styles.Card} initial="hidden" animate="visible" custom={props.index} variants={variants}>
