@@ -18,7 +18,7 @@ const items = [
     title: 'Modelo de Curriculos',
     subtitle: 'Grátis!',
     image: figma,
-    link: 'https://gabriel.code', //your personal website or portfolio  link
+    link: 'https://www.figma.com/file/VR2UcBpFJFAfyOyX0Sxhg9/Modelos-Curriculos?node-id=0%3A1&t=gSd2nyUiGCrgCJQR-1', //your personal website or portfolio  link
   },
   {
     title: 'YouTube',
@@ -30,7 +30,7 @@ const items = [
     title: 'Instagram',
     subtitle: '@manualdosdevs',
     image: instagram,
-    link: 'https://instagram.com/gabrielsoaresgsm', //instagram profile link
+    link: 'https://instagram.com/manualdosdevs', //instagram profile link
   },
   {
     title: 'LinkedIn',
