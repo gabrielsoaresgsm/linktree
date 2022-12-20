@@ -17,10 +17,14 @@
     "@mui/styled-engine-sc": "^5.11.0",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.6",
+    "firebase": "^9.15.0",
     "framer-motion": "^7.10.0",
     "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@lxjx/click-effect": "^1.0.1"
   }
 }

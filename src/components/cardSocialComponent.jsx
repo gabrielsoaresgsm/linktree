@@ -6,62 +6,49 @@ import { Paper, Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import website from '../assets/website.png';
 import instagram from '../assets/instagram.png';
-import linkedin from '../assets/linkedin.jpg';
-import youtube from '../assets/youtube.jpeg';
+import linkedin from '../assets/linkedin.svg';
+import youtube from '../assets/youtube.svg';
 import dribbble from '../assets/dribbble.png';
 import github from '../assets/github.png';
-import telegram from '../assets/telegram.png';
+import figma from '../assets/figma.svg';
 import twitter from '../assets/twitter.png';
 
 const items = [
   {
-    title: 'Portfólio',
-    subtitle: 'Desenvolvimentos realizados',
-    image: website,
+    title: 'Modelo de Curriculos',
+    subtitle: 'Grátis!',
+    image: figma,
     link: 'https://gabriel.code', //your personal website or portfolio  link
   },
   {
-    title: 'GitHub',
-    subtitle: '@gabrielsoaresgsm',
-    image: github,
-    link: 'https://github.com/gabrielsoaresgsm', //Github Profile link
+    title: 'YouTube',
+    subtitle: 'Manual dos Devs | Official channel',
+    image: youtube,
+    link: 'https://www.youtube.com/channel/UC7-8D0wLvbSXU6u0DDDYhSg', //youtube channel link
   },
   {
     title: 'Instagram',
-    subtitle: '@gabrielsoaresgsm | Shots of my life 🙂',
+    subtitle: '@manualdosdevs',
     image: instagram,
     link: 'https://instagram.com/gabrielsoaresgsm', //instagram profile link
   },
   {
-    title: 'Twitter',
-    subtitle: 'Teste',
-    image: twitter,
-    link: 'https://twitter.com/teste', // twitter profile link
-  },
-  {
     title: 'LinkedIn',
-    subtitle: 'Know more about my profession 👨‍💼',
+    subtitle: '@manualdosdevs',
     image: linkedin,
-    link: 'https://www.linkedin.com/in/gabrielmielo/', // linkedin
+    link: 'https://www.linkedin.com/in/manualdosdevs/', // linkedin
   },
   {
-    title: 'YouTube',
-    subtitle: 'MANUAL DOS DEVS | Official channel',
-    image: youtube,
-    link: 'https://www.youtube.com/channel/', //youtube channel link
-  },
-
-  {
-    title: 'Teste',
-    subtitle: 'Teste',
-    image: dribbble,
-    link: 'https://dribbble.com/', // Dribbble profile link
+    title: 'GitHub',
+    subtitle: '@manualdosdevs',
+    image: github,
+    link: 'https://github.com/manualdosdevs', //Github Profile link
   },
   {
-    title: 'Teste',
-    subtitle: 'Teste',
-    image: telegram,
-    link: 'https://telegram.me/', //Telegram Pofile
+    title: 'Vagas',
+    subtitle: 'Em breve...',
+    image: website,
+    // link: 'https://gabriel.code', //your personal website or portfolio  link
   },
 ];
 

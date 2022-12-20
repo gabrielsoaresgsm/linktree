@@ -2,6 +2,8 @@ import * as React from 'react';
 import styles from '../../styles/Home.module.css'
 import { motion } from 'framer-motion';
 import Image from 'next/image'
+import { app, database } from '../firebase/firebase';
+
 
 const variants = {
     visible: (i) => ({
@@ -19,6 +21,7 @@ const variants = {
   };
 
 export default function ResponsiveGrid(props) {
+  console.log("database", database)
     return (
       <a href={props.link} target="_blank" rel="noopener noreferrer">
           <motion.div className={styles.Card} initial="hidden" animate="visible" custom={props.index} variants={variants}>
