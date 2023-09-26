@@ -24,7 +24,7 @@ export default function ResponsiveGrid(props) {
     return (
       <a href={props.link} target="_blank" rel="noopener noreferrer">
           <motion.div className={styles.Card} initial="hidden" animate="visible" custom={props.index} variants={variants}>
-            <Image className={styles.cover} src={props.cover} alt="Picture of the author" />
+            <Image width={100} height={100} className={styles.cover} src={props.cover} alt="Picture of the author" />
             <div className={styles.data}>
               <h2>{props.title}</h2>
               <p>{props.subtitle}</p>

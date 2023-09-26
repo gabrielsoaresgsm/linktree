@@ -4,22 +4,17 @@ import { experimentalStyled as styled } from "@mui/material/styles";
 import CardComponent from "./card";
 import { Paper, Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
-import website from '../assets/website.png';
-import instagram from '../assets/instagram.png';
+// import website from '../assets/website.png';
+import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
 import youtube from '../assets/youtube.svg';
-import dribbble from '../assets/dribbble.png';
-import github from '../assets/github.png';
+// import dribbble from '../assets/dribbble.png';
+import github from '../assets/github.svg';
 import figma from '../assets/figma.svg';
-import twitter from '../assets/twitter.png';
+import linx from '../assets/linx.svg';
+// import twitter from '../assets/twitter.png';
 
 const items = [
-  {
-    title: 'Modelo de Curriculos',
-    subtitle: 'Grátis!',
-    image: figma,
-    link: 'https://www.figma.com/file/VR2UcBpFJFAfyOyX0Sxhg9/Modelos-Curriculos?node-id=0%3A1&t=gSd2nyUiGCrgCJQR-1', //your personal website or portfolio  link
-  },
   {
     title: 'YouTube',
     subtitle: 'Manual dos Devs | Official channel',
@@ -34,21 +29,27 @@ const items = [
   },
   {
     title: 'LinkedIn',
-    subtitle: '@manualdosdevs',
+    subtitle: '@gabrielmielo',
     image: linkedin,
-    link: 'https://www.linkedin.com/in/manualdosdevs/', // linkedin
+    link: 'https://www.linkedin.com/in/gabrielmielo/', // linkedin
   },
   {
-    title: 'GitHub',
-    subtitle: '@manualdosdevs',
+    title: 'GitHub PRO',
+    subtitle: 'Student',
     image: github,
-    link: 'https://github.com/manualdosdevs', //Github Profile link
+    link: 'https://education.github.com/pack', //Github Profile link
+  },
+  {
+    title: 'Modelo de Curriculos',
+    subtitle: 'Figma',
+    image: figma,
+    link: 'https://www.figma.com/file/bVgSCx4gTg3UoDdK1fkLff/APRESENTA%C3%87%C3%83O?type=design&node-id=0-1&mode=design', //your personal website or portfolio  link
   },
   {
     title: 'Vagas',
-    subtitle: 'Em breve...',
-    image: website,
-    // link: 'https://gabriel.code', //your personal website or portfolio  link
+    subtitle: 'Acesse',
+    image: linx,
+    link: 'https://www.linx.com.br/carreira-linx/', //your personal website or portfolio  link
   },
 ];
 
@@ -67,7 +68,7 @@ export default function ResponsiveGrid() {
             title={item.title} 
             subtitle={item.subtitle} 
             link={item.link} 
-            cover={item.image}
+            cover={item?.image}
              />
           </Grid>
         ))}
